@@ -1,0 +1,50 @@
+query('*').select { |x| puts x[:height]; nil }
+query('*').select { |x| puts x.keys; nil }
+query('*').select { |x| puts x["rect"]; nil }
+query('*').select { |x| puts x["rect"]["height"] < 100; nil }
+query('*').select { |x|  x["rect"]["height"] < 100 and x["rect"]["width"] < 100 }
+query('*')
+exit
+start_test_server_in_background
+query('*')
+query('*')
+query("android.support.v7.widget.GridLayout")
+query("com.crowdcompass.view.LoadableImageView")
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+query('*')
+touch("id:'cc_title_bar_button_home'")
+touch('cc_title_bar_button_home')
+touch("ImageButton id:'cc_title_bar_button_home'")
+start_test_server_in_background
+exit
+start_test_server_in_background
+query('*')
+touch("com.crowdcompass.view.StyledTextView text:'I am a BANANA!'")
+query('*')
+exit
+query('*')
+exit
+start_test_server_in_background
+query('*)
+"
+query('*')
+query('*')
+query("button")
+query("StyledTextView")
+exit
+start_test_server_in_background
+query('*')
+query('*')
+query('*')
+query('*')
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit
+start_test_server_in_background
+exit

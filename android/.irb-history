@@ -1,0 +1,50 @@
+query("button")
+query("id: cc_ed_detail_download")
+query("button id: cc_ed_detail_download")
+query("android.widget.Button text:'Download to My Events.'")
+query("button")
+exit
+start_test_server_in_background
+query("button")
+start_test_server_in_background
+query("button")
+touch("Button id:'cc_ed_directory_tab'")
+start_test_server_in_background
+query("*")
+query("*")
+exit
+query(*)
+query("*")
+start
+exit
+start_test_server_in_background
+start_test_server_in_background
+exit
+start_test_server_in_background
+query("*")
+exit
+query("*")
+exit
+query("*")
+start_test_server_in_background
+ls -la
+exit
+query("*")
+start_test_server_in_background
+query("*")
+start_test_server_in_background
+query("*")
+query("*")
+exit
+query('*')
+exit
+query('*')
+exit
+query('*')
+exit
+query('*')
+exit
+start_test_server_in_background
+reinstall_test_server
+start_test_server_in_background
+query('*')

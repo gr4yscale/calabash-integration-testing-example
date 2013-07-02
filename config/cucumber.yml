@@ -1,0 +1,2 @@
+android: RESET_BETWEEN_SCENARIOS=1 PLATFORM=android
+ios: APP_BUNDLE_PATH=ios-source/3.3.1/build/Applications/WordPress.app RESET_BETWEEN_SCENARIOS=1 PLATFORM=ios -r ios_features -r ios_features/step_definitions -r ios_features_support

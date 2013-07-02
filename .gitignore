@@ -1,0 +1,6 @@
+*.swp
+*.swo
+*.apk
+*.DS_Store
+*.irb_history
+files_from_device/databases/
